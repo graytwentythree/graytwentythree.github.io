@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="default.css"/>
+    <icon src="./images/icon" />
+    <title>Gray's Portfolio</title>
+    <script>function goto(x) {
+      if(x === 'git'){
+        window.open("https://www.github.com/graytwentythree","_blank");
+      }
+      else if(x === 'projects') {
+        window.open("./project/index.html","_self");
+      }
+      else if(x === 'upwork') {
+        window.open("#","_self");
+      }
+    }</script>
+  </head>
+  <body>
+    <header class="topNav">
+      <button onclick="goto('git')">Github</button>
+      <button onclick="goto('projects')">Projects</button>
+      <button onclick="goto('upwork')">upwork</button>
+    </header>
+    <footer>
+      <p>temporary page</p>
+    </footer>
+
+  </body>
+</html>

@@ -1,0 +1,21 @@
+html, body {
+  background-color: #283C49;
+}
+
+button {
+  text-align: center;
+
+}
+
+footer {
+  margin-top:99%;
+  background: repeating-linear-gradient(
+    45deg,white,white 10px, #ccc 10px, #ccc 20px
+  );
+  background-color:#111;
+  color:#888;
+  bottom:0;
+  text-align: center;
+  margin-left: 45%;
+  margin-right: 45%;
+}
