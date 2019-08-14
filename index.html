@@ -9,19 +9,23 @@
         window.open("https://www.github.com/graytwentythree","_blank");
       }
       else if(x === 'projects') {
-        window.open("./project/index.html","_self");
+        window.open("./projects/index.html","_self");
       }
-      else if(x === 'upwork') {
-        window.open("#","_self");
+      else if(x === 'linkedin') {
+        window.open("www.linkedin.com/in/kai-gray-546706b6","_blank");
       }
     }</script>
   </head>
   <body>
     <header class="topNav">
-      <button onclick="goto('git')">Github</button>
-      <button onclick="goto('projects')">Projects</button>
-      <button onclick="goto('upwork')">upwork</button>
     </header>
+    <div class="links">
+      <button onclick="goto('git')"><img src="./images/GitHub.png" alt="Github"/></button>
+      <!--<button onclick="goto('projects')">Projects</button>-->
+      <button onclick="goto('linkedin')"><img src="./images/linkedin.png" alt="Linkedin"/></button>
+      <br/><br/>
+      <a href="./images/Resume.pdf" download="Resume">Resume.pdf</a>
+    </div>
     <footer>
       <p>temporary page</p>
     </footer>

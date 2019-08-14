@@ -1,12 +1,35 @@
-html, body {
+html, body{
   background-color: #283C49;
 }
-
+.links {
+  margin-top: 12%;
+  margin-left: 45%;
+}
 button {
   text-align: center;
+  padding: 1%;
+}
+img {
+  width:32px;
+  height:32px;
+}
+a {
+  text-align: center;
+  padding: 2%;
+  color:#00ccff;
+}
+a:hover {
 
 }
-
+h3 {
+  margin-left: 5%;
+  color:#0099cc;
+}
+/*p {
+  margin-left: 8%;
+  margin-right: 60%;
+  color:#00ccff;
+}*/
 footer {
   margin-top:99%;
   background: repeating-linear-gradient(
