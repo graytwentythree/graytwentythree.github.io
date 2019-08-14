@@ -8,6 +8,14 @@ html, body{
 button {
   text-align: center;
   padding: 1%;
+  margin-left: 1%;
+  border-color:black;
+  border-radius:10px;
+  border-width:3px;
+  background:linear-gradient(to bottom right,gray,#ddd);
+}
+button:hover {
+  background:linear-gradient(to bottom right,#656565,#bbb);
 }
 img {
   width:32px;
